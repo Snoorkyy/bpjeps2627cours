@@ -64,6 +64,11 @@ details.cal summary{cursor:pointer;padding:12px 18px;font-family:var(--display);
 .r.ex .tt{font-weight:700;color:var(--red-ink)}
 .r a{font-family:var(--display);font-weight:700;text-transform:uppercase;font-size:15px;color:var(--red);text-decoration:none;white-space:nowrap}
 @media (max-width:560px){.r{grid-template-columns:1fr}.r a{justify-self:start}}
+.suivi{margin-top:16px;display:flex;flex-wrap:wrap;gap:14px 22px;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--line);border-left:8px solid var(--red);border-radius:10px;padding:16px 20px}
+.suivi h2{font-family:var(--display);font-weight:800;font-size:26px;line-height:1.05;margin:0;text-transform:uppercase}
+.suivi p{margin:4px 0 0;max-width:60ch}
+.suivi a{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:.04em;text-transform:uppercase;border-radius:8px;padding:10px 18px}
+.suivi a:hover{background:var(--red-ink)}
 footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:14px}
 .hide{display:none!important}
 </style>
@@ -78,6 +83,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 </header>
 
 <div class="next" id="next"></div>
+<section class="suivi"><div style="min-width:0;flex:1"><h2>Tableau de suivi des projets</h2><p>Une ligne par stagiaire : idées de projet BC1, projet validé et sa date, idées d'actions de valorisation BC2 et les deux actions validées. Écrivez directement dans votre ligne, tout s'enregistre pour tout le monde.</p></div><a href="https://docs.google.com/spreadsheets/d/1lVi-GaKPqwBPdk0Tym2O065Q_b39Y386TrZ7rzNRcX8/edit?usp=sharing" target="_blank" rel="noopener">Ouvrir le tableau →</a></section>
+
 
 <div class="tools">
  <div class="tabs" role="tablist" id="tabs"></div>
